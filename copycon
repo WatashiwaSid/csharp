@@ -1,0 +1,27 @@
+using System;
+public class Constructors
+{
+    public int data;
+    public Constructors(int data)
+    {
+        this.data = data; 
+    }
+    
+    //copy constructor
+    public Constructors(Constructors obj)
+    {
+        this.data = obj.data;
+    }
+    
+}
+
+public class MainClass
+{
+    public static void Main(String[] __)
+    {
+        Constructors obj = new Constructors(25);
+        Constructors objcopy = new Constructors(obj);
+        Console.WriteLine("Data held at object: " + obj.data);
+        Console.WriteLine("Data held at copy: " + objcopy.data);
+    }
+}
