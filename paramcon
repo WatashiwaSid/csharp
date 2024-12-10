@@ -1,0 +1,20 @@
+using System;
+
+//parameterized constructor
+public class Constructors
+{
+    public int data;
+    public Constructors(int data)
+    {
+        this.data = data;
+    }
+}
+
+public class MainClass
+{
+    public static void Main(String[] __)
+    {
+        Constructors obj = new Constructors(25);
+        Console.WriteLine("Object data: " + obj.data);
+    }
+}
