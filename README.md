@@ -4,6 +4,7 @@
 
 | Syntax      | Description | Keywords |
 | ----------- | ----------- | -------- |
+| [inheritance](https://github.com/WatashiwaSid/csharp/blob/main/inheritance.cs) | Single Inheritance | inheritance, single inheritance |
 | [override.cs](https://github.com/WatashiwaSid/csharp/blob/main/overriding.cs)      | Method Overriding       | virtual, override |
 | [defaultcon.cs](https://github.com/WatashiwaSid/csharp/blob/main/defaultcon.cs)   | Default Constructor        | constructor |
 | [paramcon.cs](https://github.com/WatashiwaSid/csharp/blob/main/paramcon) | Parameterized Constructor | constructor |
