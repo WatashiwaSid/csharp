@@ -4,5 +4,5 @@
 
 | Syntax      | Description | Keywords |
 | ----------- | ----------- | -------- |
-| override.cs      | Method Overriding       | virtual, override |
+| [override.cs](https://github.com/WatashiwaSid/csharp/blob/main/overriding.cs)      | Method Overriding       | virtual, override |
 | Paragraph   | Text        | dummy |
