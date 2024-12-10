@@ -1,0 +1,27 @@
+using System;
+
+//constructor overloading
+public class Constructors
+{
+    public int data;
+    public Constructors()
+    {
+        this.data = 10;
+    }
+    
+    public Constructors(int data)
+    {
+        this.data = data;
+    }
+}
+
+public class MainClass
+{
+    public static void Main(String[] __)
+    {
+        Constructors obj = new Constructors(25);
+        Constructors def = new Constructors();
+        Console.WriteLine("Object data: " + obj.data);
+        Console.WriteLine("Default data: " + def.data);
+    }
+}
