@@ -11,3 +11,4 @@
 | [staticcon.cs](https://github.com/WatashiwaSid/csharp/blob/main/staticcon) | Static Constructor | static, constructor |
 | [copycon.cs](https://github.com/WatashiwaSid/csharp/blob/main/copycon) | Copy Constructor | constructor |
 | [conoverloading](https://github.com/WatashiwaSid/csharp/blob/main/conoverloading) | Constructor Overloading | overloading, constructor |
+| [circle.cs](https://github.com/WatashiwaSid/csharp/blob/main/circle.cs) | Cricle Area & Circumference | this, math |
