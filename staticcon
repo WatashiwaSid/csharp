@@ -1,0 +1,25 @@
+using System;
+
+//static constructor
+public class Constructors
+{
+    //note: static constructor is invoked before default constructor
+    public Constructors()
+    {
+        Console.WriteLine("Default Constructor Invoked.");    
+    }
+    
+    static Constructors()
+    {
+        Console.WriteLine("Static Constructor Invoked");
+    }
+    
+}
+
+public class MainClass
+{
+    public static void Main(String[] args)
+    {
+        Constructors obj = new Constructors();
+    }
+}
